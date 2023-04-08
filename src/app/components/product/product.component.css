@@ -1,0 +1,21 @@
+.product{
+    border:1px solid black;
+    width: 30%;
+    
+}
+.productImageSource{
+    width: 100%;
+}
+
+
+.main-product{
+    width: 40%;
+}
+
+.product h2{
+    font-weight: light;
+}
+
+.product h3{
+    font-weight: lighter;
+}

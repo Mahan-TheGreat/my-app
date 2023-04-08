@@ -8,6 +8,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { SocialmediaiconsComponent } from './components/socialmediaicons/socialmediaicons.component';
 import { ProductComponent } from './components/product/product.component';
 import { ProductContainerComponent } from './components/product-container/product-container.component';
+import { SliderComponent } from './components/slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ProductContainerComponent } from './components/product-container/produc
     HomepageComponent,
     SocialmediaiconsComponent,
     ProductComponent,
-    ProductContainerComponent
+    ProductContainerComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,

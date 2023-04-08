@@ -1,6 +1,7 @@
-<ng-container>
-    <div *ngFor="let product of productsList">
-        <app-product 
+<div id="product-container">
+    <div *ngFor="let product of productsList" class="main-product">
+        <app-product   
+        class="product-main"
         [productName]="product.productName"
         [productImageSource]="product.productImageSource"
         [productPrice]="product.productPrice"
@@ -8,4 +9,4 @@
 
         </app-product>
     </div>
-</ng-container>
+</div>
