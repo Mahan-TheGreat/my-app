@@ -11,16 +11,15 @@
  top: 50%;
  color:white;
  font-size: 2em;
- font-weight: lighter;
  cursor: pointer;
  transition: 0.2s ease-out;
 
 }
-.left-arrow{
+#left-arrow{
     left: 0.2em;
 }
 
-.right-arrow{
+#right-arrow{
  right: 0.2em;
 }
 
@@ -29,20 +28,11 @@
     transform:scale3d(1.1,1.1,0.1)
 }
 
-#image-slider-right-arrow{
-    position: absolute;
-    right: 0.2em;
-    top: 50%;
-    color:white;
-    font-size: 2em;
-    cursor: pointer;
-
-}
 
 #image-slider-tag{
     position: absolute;
     bottom: 3em;
-    left: 40%;
+    left: 43%;
     color: snow;
 }
 
@@ -56,4 +46,26 @@
     font-size: 1em;
     letter-spacing: 0.09em;
  }
+
+#image-number-indicator{
+    position: absolute;
+    width: 200px;
+    color: aliceblue;
+    bottom: 2em;
+    left: 43%;
+    color: snow;
+    display: flex;
+    justify-content: space-around;
+}
+
+#image-number-indicator div{
+    font-size: 2em;
+    width: 30%;
+    border-bottom: 8px solid rgba(124, 122, 122, 0.495);
+}
+#active-image{
+    font-size: 5em;
+    width: 30%;
+    border-bottom: 8px solid rgb(255, 255, 255)!important;
+}
 

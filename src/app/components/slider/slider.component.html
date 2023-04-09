@@ -1,9 +1,14 @@
 <div id="image-slider">
-<span class="image-slider-arrow left-arrow"><i class="fa-solid fa-chevron-left"></i></span>
-<span class="image-slider-arrow right-arrow"><i class="fa-solid fa-chevron-right"></i></span>
-    <img [src]="mainImage" alt="Home Page Picture" class="image-slider-image">
+<span class="image-slider-arrow" id="left-arrow"><i class="fa-solid fa-chevron-left" id="left-picture"></i></span>
+<span class="image-slider-arrow" id="right-arrow"><i class="fa-solid fa-chevron-right" id="right-picture"></i></span>
+    <img [src]="activeImage" alt="Home Page Picture" class="image-slider-image">
     <div id="image-slider-tag">
         <h6 id="image-slider-tag-h6">Welcome!</h6>
         <p id="image-slider-tag-p">Food that touches the heart</p>
+    </div>
+    <div id="image-number-indicator">
+        <div></div>
+        <div id="active-image"></div>
+        <div></div>
     </div>
 </div>
