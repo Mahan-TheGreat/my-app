@@ -14,6 +14,8 @@ ngOnInit(): void {
     {productName:'ABC',productPrice: 400, productImageSource: 'assets/product3.jpg' },
     {productName:'ABC',productPrice: 400, productImageSource: 'assets/product4.jpg' },
     {productName:'ABC',productPrice: 400, productImageSource: 'assets/product5.jpg' },
+    {productName:'ABC',productPrice: 400, productImageSource: 'assets/product1.jpg' }
+
   ]
 }
 }

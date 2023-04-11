@@ -9,6 +9,7 @@ import { SocialmediaiconsComponent } from './components/socialmediaicons/socialm
 import { ProductComponent } from './components/product/product.component';
 import { ProductContainerComponent } from './components/product-container/product-container.component';
 import { SliderComponent } from './components/slider/slider.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SliderComponent } from './components/slider/slider.component';
     SocialmediaiconsComponent,
     ProductComponent,
     ProductContainerComponent,
-    SliderComponent
+    SliderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
