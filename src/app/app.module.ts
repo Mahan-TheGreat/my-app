@@ -10,6 +10,7 @@ import { ProductComponent } from './components/product/product.component';
 import { ProductContainerComponent } from './components/product-container/product-container.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { InfoSectionHomeComponent } from './components/info-section-home/info-section-home.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './components/footer/footer.component';
     ProductComponent,
     ProductContainerComponent,
     SliderComponent,
-    FooterComponent
+    FooterComponent,
+    InfoSectionHomeComponent
   ],
   imports: [
     BrowserModule,

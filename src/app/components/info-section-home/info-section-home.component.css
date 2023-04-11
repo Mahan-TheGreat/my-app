@@ -1,0 +1,35 @@
+.info-section-home{
+    margin-top:2em;
+    margin-left: 5em;
+    width: 80%;
+    padding: 0.2em;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(20, 133, 151, 0.678);
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px gray;
+}
+
+.info-section-home img{
+    margin: 1.4em;
+    width: 40%;
+    border-radius: 5px;
+    aspect-ratio: 1/1;
+    box-shadow: 0 0 10px 1px gray;
+}
+
+.info-section-home div{
+    text-align: center;
+}
+
+.info-section-home h3{
+    margin-top: 1em;
+    font-size: 1.8em;
+    color:aliceblue;
+    text-transform: uppercase;
+}
+
+.info-section-home p{
+    margin-top: 2em;
+    color: rgb(104, 53, 53);
+}
